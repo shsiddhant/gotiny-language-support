@@ -1,0 +1,34 @@
+{
+  "name": "gotiny-language-support",
+  "displayName": "GoTiny Language Support",
+  "description": "VS Code language support for GoTiny",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.138.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "gotiny",
+        "aliases": [
+          "GoTiny",
+          "gotiny"
+        ],
+        "extensions": [
+          ".gt"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "gotiny",
+        "scopeName": "source.gt",
+        "path": "./syntaxes/gotiny.tmLanguage.json"
+      }
+    ]
+  }
+}
