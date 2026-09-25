@@ -1,6 +1,9 @@
 # GoTiny Language Support
 
-VS Code language support for GoTiny, a tiny statically-typed programming language implemented in Go.
+VS Code language support for [GoTiny](https://github.com/shsiddhant/gotiny),
+a tiny statically-typed programming language implemented in Go.
+
+**Supports GoTiny v0.4.1**
 
 ## Screenshots
 
@@ -10,21 +13,13 @@ VS Code language support for GoTiny, a tiny statically-typed programming languag
 
 ## Features
 
-- Syntax highlighting for GoTiny source files
+- Syntax highlighting for GoTiny keywords, types, literals, operators, variables, and comments
 - `.gt` file association
-- GoTiny keywords and control flow
-- Type highlighting for Int and Bool
-- Boolean literals
-- Function declarations and calls
-- Integer literals
-- Operators
-- Variable highlighting
+- Ctrl+/ to toggle comments
 
 ## Installation
 
-### From Source
-
-Clone the repository inside the `<user home>/.vscode/extensions` folder and restart Code
+Clone the repository inside the `<user home>/.vscode/extensions` folder and restart VS Code:
 
 ```
 git clone https://github.com/shsiddhant/gotiny-language-support.git
@@ -38,11 +33,6 @@ The syntax grammar is located at: `syntaxes/gotiny.tmLanguage.json`
 
 Language configuration is located at: `language-configuration.json`
 
-Status
-This extension is currently focused on syntax highlighting and basic language configuration.
-
-Future language tooling may include features such as diagnostics, completion, and other editor support.
-
 ## Related Project
 
-GoTiny: https://github.com/shsiddhant/gotiny
+[GoTiny](https://github.com/shsiddhant/gotiny)

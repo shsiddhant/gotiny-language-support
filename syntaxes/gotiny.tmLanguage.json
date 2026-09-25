@@ -3,6 +3,9 @@
 	"name": "GoTiny",
 	"patterns": [
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -25,6 +28,14 @@
 		}
 	],
 	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.number-sign.gt",
+					"match": "#.*$"
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [
 				{
