@@ -1,5 +1,16 @@
 # Change Log
 
+## [v0.0.3]
+
+### Added
+
+- Add support for print statements.
+- Add punctuation support.
+
+### Fixed
+
+- Fix missing support for assignment operator.
+
 ## [v0.0.2]
 
 ### Added

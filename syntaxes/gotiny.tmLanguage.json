@@ -24,6 +24,9 @@
 			"include": "#operators"
 		},
 		{
+			"include": "#punctuation"
+		},
+		{
 			"include": "#variables"
 		}
 	],
@@ -40,7 +43,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.gt",
-					"match": "\\b(if|else|return)\\b"
+					"match": "\\b(if|else|return|print)\\b"
 				},
 				{
 					"name": "keyword.other.declaration.gt",
@@ -93,7 +96,19 @@
 			"patterns": [
 				{
 					"name": "keyword.operator.gt",
-					"match": "(&&|\\|\\||==|!=|<=|>=|[<>+\\-*/!])"
+					"match": "(&&|\\|\\||==|!=|<=|>=|[<>+\\-*/!=])"
+				}
+			]
+		},
+		"punctuation": {
+			"patterns": [
+				{
+					"name": "punctuation.terminator.statement.gt",
+					"match": ";"
+				},
+				{
+					"name": "punctuation.separator.comma.gt",
+					"match": ","
 				}
 			]
 		},
@@ -101,7 +116,7 @@
 			"patterns": [
 				{
 					"name": "variable.other.readwrite.gt",
-					"match": "\\b(?!(?:if|else|return|let|fn|Int|Bool|true|false)\\b)(?![a-zA-Z_]\\w*\\s*\\()[a-zA-Z_]\\w*\\b"
+					"match": "\\b(?!(?:if|else|return|print|let|fn|Int|Bool|true|false)\\b)(?![a-zA-Z_]\\w*\\s*\\()[a-zA-Z_]\\w*\\b"
 				}
 			]
 		}

@@ -3,13 +3,13 @@
 VS Code language support for [GoTiny](https://github.com/shsiddhant/gotiny),
 a tiny statically-typed programming language implemented in Go.
 
-**Supports GoTiny v0.4.1**
+**Supports GoTiny v0.4.2**
 
 ## Screenshots
 
-| Catppuccin Frappé                                                                    | Gruvbox Material Dark                                                                         |
+| Solarized Dark                                                                    | Gruvbox Material Dark                                                                         |
 | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
-| <img src="screenshots/catppuccin_frape.png" width="600px" alt="Catppuccin Frappé" /> | <img src="screenshots/gruvbox_material_dark.png" width="600px" alt="Gruvbox Material Dark" /> |
+| <img src="screenshots/solarized_dark.png" width="600px" alt="Solarized Dark" /> | <img src="screenshots/gruvbox_material_dark.png" width="600px" alt="Gruvbox Material Dark" /> |
 
 ## Features
 
