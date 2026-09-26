@@ -1,5 +1,11 @@
 # Change Log
 
+## [v0.0.4]
+
+### Added
+
+- Add support for while loop.
+
 ## [v0.0.3]
 
 ### Added

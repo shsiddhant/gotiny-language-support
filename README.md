@@ -3,7 +3,7 @@
 VS Code language support for [GoTiny](https://github.com/shsiddhant/gotiny),
 a tiny statically-typed programming language implemented in Go.
 
-**Supports GoTiny v0.4.2**
+**Supports GoTiny v0.5.0**
 
 ## Screenshots
 

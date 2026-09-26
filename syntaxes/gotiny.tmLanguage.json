@@ -43,7 +43,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.gt",
-					"match": "\\b(if|else|return|print)\\b"
+					"match": "\\b(if|else|return|print|while)\\b"
 				},
 				{
 					"name": "keyword.other.declaration.gt",
@@ -116,7 +116,7 @@
 			"patterns": [
 				{
 					"name": "variable.other.readwrite.gt",
-					"match": "\\b(?!(?:if|else|return|print|let|fn|Int|Bool|true|false)\\b)(?![a-zA-Z_]\\w*\\s*\\()[a-zA-Z_]\\w*\\b"
+					"match": "\\b(?!(?:if|else|return|print|while|let|fn|Int|Bool|true|false)\\b)(?![a-zA-Z_]\\w*\\s*\\()[a-zA-Z_]\\w*\\b"
 				}
 			]
 		}
